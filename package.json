@@ -1,0 +1,42 @@
+{
+  "name": "eslint-config-vazco",
+  "version": "0.1.0",
+  "description": "ESLint rules used across Vazco.eu in Meteor/React projects",
+  "peerDependencies": {
+    "eslint": "^2.8",
+    "babel-eslint": "^6.0",
+    "eslint-plugin-babel": "^3.2",
+    "eslint-plugin-react": "^5.0"
+  },
+  "devDependencies": {
+    "yamljs": "^0.2.7"
+  },
+  "main": "default.json",
+  "files": [
+    "*.json"
+  ],
+  "scripts": {
+    "test": "exit 0",
+    "prepublish": "yaml2json -sr ."
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "vazco",
+    "meteor"
+  ],
+  "author": {
+    "name": "Maciek Stasieluk",
+    "email": "maciej.stasieluk@vazco.eu",
+    "url": "http://vazco.eu"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vazco/eslint-config-vazco/issues"
+  },
+  "homepage": "https://github.com/vazco/eslint-config-vazco",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vazco/eslint-config-vazco.git"
+  }
+}
