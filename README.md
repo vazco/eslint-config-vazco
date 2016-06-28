@@ -12,7 +12,7 @@ $ npm install --save-dev eslint eslint-config-vazco babel-eslint eslint-plugin-b
 
 ## Usage
 
-Extend your project ESLint rules with our config.
+Extend your project ESLint rules with our config. This can be done in few ways:
 
 #### .eslintrc / .eslintrc.json
 
@@ -45,16 +45,12 @@ rules:
 }
 ```
 
-## Adding new config sets
+## Modifying the config
 
-At the moment there is only one, `default` config.
+All information regarding making changes in the config and versioning details can be found in [contributing](CONTRIBUTING.md) file.
 
-There could be new configs added in the future by just adding new yaml files.
+Please read them before opening a Pull Request or suggesting a change.
 
-E.g. create `example.yaml` (potentially based on `default.yaml`) file in main directory and once published it could be imported in other projects:
+## Licence
 
-```json
-{
-    "extends": "vazco/example"
-}
-```
+MIT. Copyright (c) [Vazco.eu](http://vazco.eu).
