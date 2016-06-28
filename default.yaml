@@ -47,6 +47,7 @@ rules:
   no-lonely-if: 2
   no-multiple-empty-lines: [2, {max: 3}]
   no-self-compare: 2
+  no-trailing-spaces: 2
   no-underscore-dangle: 0
   no-unused-expressions: 0
   no-use-before-define: 0
