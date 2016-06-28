@@ -19,7 +19,7 @@ To make a new change in the config:
     - after 24h if < 50% `-1`
     - after 72h if `+1` < `-1`
 - Update [CHANGELOG.md](CHANGELOG.md)
-- Add new git tag (using `npm tag`)
+- Add new git tag (using `npm version`)
 - Publish new version on NPM (check SemVer rules below)
 
 ## Adding new config sets
