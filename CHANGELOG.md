@@ -1,4 +1,7 @@
-## 1.0
+### 1.1.1
+
+- Fix for `eol-last` rule
+- Added empty file test to verify if config is correct
 
 ### 1.1.0
 

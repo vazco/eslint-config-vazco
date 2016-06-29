@@ -9,15 +9,20 @@
     "eslint-plugin-react": "^5.0"
   },
   "devDependencies": {
-    "yamljs": "^0.2.7"
+    "yamljs": "^0.2.7",
+    "eslint": "^2.8",
+    "babel-eslint": "^6.0",
+    "eslint-plugin-babel": "^3.2",
+    "eslint-plugin-react": "^5.0"
   },
   "main": "default.json",
   "files": [
     "*.json"
   ],
   "scripts": {
-    "test": "exit 0",
-    "prepublish": "yaml2json -sr ."
+    "test": "eslint ./tests/empty.js -c default.yaml",
+    "preprepublish": "npm test",
+    "prepublish": "yaml2json -s ."
   },
   "keywords": [
     "eslint",
