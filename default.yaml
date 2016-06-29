@@ -26,7 +26,7 @@ rules:
   complexity: [1, 12]
   computed-property-spacing: [2, "never"]
   consistent-return: 0
-  eol-last: [2, "always"]
+  eol-last: 2
   func-names: 1
   guard-for-in: 2
   indent: [2, 4, {SwitchCase: 1}]
