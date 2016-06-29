@@ -1,6 +1,7 @@
 ### 1.1.2
 
 - Move configs to `configs` directory
+- Integration with Travis CI
 
 ### 1.1.1
 
