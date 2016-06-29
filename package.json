@@ -20,9 +20,9 @@
     "*.json"
   ],
   "scripts": {
-    "test": "eslint ./tests/empty.js -c default.yaml",
-    "preprepublish": "npm test",
-    "prepublish": "yaml2json -s ."
+    "test": "eslint tests/empty.js -c configs/default.yaml",
+    "build": "yaml2json -s configs && mv -v configs/*.json .",
+    "prepublish": "npm test && npm run build"
   },
   "keywords": [
     "eslint",

@@ -26,9 +26,9 @@ To make a new change in the config:
 
 At the moment there is only one, `default` config.
 
-New more specialized configs can added in the future by just adding new `.yaml` files.
+New more specialized configs can added in the future by just adding new `.yaml` files in to the `configs` directory.
 
-E.g. create `example.yaml` (can be based on `default.yaml`) file in main directory and once published it could be imported in other projects:
+E.g. create `example.yaml` (can be based on `default.yaml`) file and once published it could be imported in other projects:
 
 ```json
 {

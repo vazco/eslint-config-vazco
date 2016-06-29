@@ -1,3 +1,7 @@
+### 1.1.2
+
+- Move configs to `configs` directory
+
 ### 1.1.1
 
 - Fix for `eol-last` rule
