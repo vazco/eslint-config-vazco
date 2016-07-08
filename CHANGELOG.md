@@ -1,3 +1,7 @@
+### 1.2.0
+
+- Add `comma-dangle`
+
 ### 1.1.2
 
 - Move configs to `configs` directory
