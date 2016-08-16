@@ -1,3 +1,7 @@
+### 1.3.0
+
+- Added `no-console` rule (#7)
+
 ### 1.2.0
 
 - Stricter jsx related rules (#6)
@@ -23,8 +27,8 @@
 
 ### 1.1.0
 
-- Add `eol-last`
-- Add `no-trailing-spaces`
+- Added `eol-last` rule
+- Added `no-trailing-spaces` rule
 
 ### 1.0.0
 
