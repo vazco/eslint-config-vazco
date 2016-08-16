@@ -1,3 +1,7 @@
+### 2.0.0
+
+- Switch to ESLint 3.x
+
 ### 1.3.0
 
 - Added `no-console` rule (#7)
