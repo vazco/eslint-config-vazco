@@ -65,16 +65,16 @@ rules:
   react/jsx-indent-props: [2, 4]
   react/jsx-indent: [2, 4]
   react/jsx-key: 2
+  react/jsx-no-comment-textnodes: 2
   react/jsx-no-duplicate-props: 2
   react/jsx-no-undef: 2
   react/jsx-pascal-case: 2
   react/jsx-space-before-closing: [2, "always"]
   react/jsx-uses-react: 2
   react/jsx-uses-vars: 2
-  react/no-comment-textnodes: 2
+  react/jsx-wrap-multilines: 2
   react/react-in-jsx-scope: 2
   react/self-closing-comp: 2
-  react/wrap-multilines: 2
   semi: [2, "always"]
   space-before-blocks: [2, "always"]
   space-before-function-paren: [2, "always"]

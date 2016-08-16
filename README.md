@@ -5,10 +5,21 @@
 
 ## Install
 
+#### For ESLint 3.x
+
+To install simply add this config (along with ESLint and required dependencies) to your project dev-dependencies:
+
 ```
 $ npm install --save-dev eslint eslint-config-vazco babel-eslint eslint-plugin-babel eslint-plugin-react
 ```
 
+#### For ESLint 2.x (legacy)
+
+If you want to use this config with ESLint 2.x (required e.g. for Node 0.10) you can install previous major version:
+
+```
+$ npm install --save-dev eslint@2 eslint-config-vazco@1 babel-eslint@6 eslint-plugin-babel@3 eslint-plugin-react@5
+```
 
 ## Usage
 
@@ -16,7 +27,7 @@ Extend your project ESLint rules with our config. This can be done in few ways:
 
 #### .eslintrc / .eslintrc.json
 
-```json
+```javascript
 {
     "extends": "vazco",
     "rules": {
