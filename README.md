@@ -10,7 +10,7 @@
 To install simply add this config (along with ESLint and required dependencies) to your project dev-dependencies:
 
 ```
-$ npm install --save-dev eslint eslint-config-vazco babel-eslint eslint-plugin-babel eslint-plugin-react
+$ npm install --save-dev eslint eslint-config-vazco babel-eslint eslint-plugin-babel eslint-plugin-react eslint-plugin-vazco
 ```
 
 #### For ESLint 2.x (legacy)
@@ -18,7 +18,7 @@ $ npm install --save-dev eslint eslint-config-vazco babel-eslint eslint-plugin-b
 If you want to use this config with ESLint 2.x (required e.g. for Node 0.10) you can install previous major version:
 
 ```
-$ npm install --save-dev eslint@2 eslint-config-vazco@1 babel-eslint@6 eslint-plugin-babel@3 eslint-plugin-react@5
+$ npm install --save-dev eslint@2 eslint-config-vazco@1 babel-eslint@6 eslint-plugin-babel@3 eslint-plugin-react@5 eslint-plugin-vazco@1
 ```
 
 ## Usage
