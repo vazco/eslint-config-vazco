@@ -37,7 +37,7 @@ rules:
   new-cap: [2, {newIsCap: true, capIsNew: false}]
   no-bitwise: 2
   no-class-assign: 2
-  no-console: [2, {allow: ["warn", "error"]}]
+  no-console: [2, {allow: ["warn", "error", "info"]}]
   no-const-assign: 2
   no-else-return: 2
   no-eq-null: 2
