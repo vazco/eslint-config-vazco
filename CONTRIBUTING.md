@@ -48,4 +48,5 @@ We use modified semver (_major_._minor_._patch_) scheme to better align with pee
 - Patch version bump​:
     - New rule at `warning` level
     - Removed rule
+    - Relaxing existing rule
     - Other backward compatible changes

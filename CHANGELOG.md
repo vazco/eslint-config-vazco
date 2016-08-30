@@ -1,3 +1,7 @@
+### 2.0.1
+
+- Relax `no-console` rule, allow `info` (#9), `time` and `timeEnd` (#10)
+
 ### 2.0.0
 
 - Switch to ESLint 3.x
