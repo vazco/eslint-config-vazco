@@ -1,3 +1,11 @@
+### 2.1.0
+
+- Added new required peer dependency: [eslint-plugin-vazco](https://www.npmjs.com/package/eslint-plugin-vazco).
+
+    You can install it in your project with `npm i -D eslint-plugin-vazco`
+    
+- Changes to `no-console` rule, `info`, `time` and `timeEnd` will now be a warning.
+
 ### 2.0.1
 
 - Relax `no-console` rule, allow `info` (#9), `time` and `timeEnd` (#10)
