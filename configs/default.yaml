@@ -20,6 +20,7 @@ parserOptions:
 
 rules:
   array-bracket-spacing: [2, "never"]
+  arrow-parens: [2, "as-needed"]
   arrow-spacing: [2, {before: true, after: true}]
   brace-style: [2, "1tbs"]
   camelcase: [1, {properties: "never"}]
