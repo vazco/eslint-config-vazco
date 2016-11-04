@@ -1,3 +1,20 @@
+### 2.2.0
+
+- Added new errors:
+    - no-var (#13)
+    - prefer-const (#14)
+    - object-shorthand (#15)
+    - arrow-parens (#16)
+    - no-unneeded-ternary (#17)
+
+- Added new warnings:
+    - consistent-return (#18)
+
+- Updated dependencies:
+    - eslint@3.9.1
+    - eslint-plugin-react@6.5.0
+    - babel-eslint@7.1.0
+ 
 ### 2.1.0
 
 - Added new required peer dependency: [eslint-plugin-vazco](https://www.npmjs.com/package/eslint-plugin-vazco).
