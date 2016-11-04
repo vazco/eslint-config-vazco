@@ -57,6 +57,7 @@ rules:
   no-var: 2
   no-void: 2
   object-curly-spacing: [2, "never"]
+  prefer-const: 2
   prefer-spread: 1
   quotes: [2, "single"]
   react/display-name: 2
