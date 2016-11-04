@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-vazco",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "description": "ESLint rules used across Vazco.eu in Meteor/React projects",
   "peerDependencies": {
     "babel-eslint": "^7.0.0",
