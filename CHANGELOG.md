@@ -1,3 +1,11 @@
+### 2.2.1
+
+- Updated dependencies:
+    - babel-eslint@7.1.1
+    - eslint@3.13.0
+    - eslint-plugin-babel@4.0.0
+    - eslint-plugin-react@6.9.0
+
 ### 2.2.0
 
 - Added new errors:
