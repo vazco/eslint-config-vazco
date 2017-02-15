@@ -25,6 +25,7 @@ rules:
   brace-style: [2, "1tbs"]
   camelcase: [1, {properties: "never"}]
   comma-style: [2, "last"]
+  comma-dangle: [2, "never"]
   complexity: [1, 12]
   computed-property-spacing: [2, "never"]
   consistent-return: 1
