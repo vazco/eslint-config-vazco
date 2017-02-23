@@ -86,6 +86,7 @@ rules:
   space-before-blocks: [2, "always"]
   space-before-function-paren: [2, "always"]
   space-in-parens: [2, "never"]
+  space-unary-ops: [2, {"words": true, "nonwords": false}]
   strict: [0, "global"]
   valid-jsdoc: 1
   wrap-iife: [2, "any"]
