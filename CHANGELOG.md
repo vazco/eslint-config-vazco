@@ -1,3 +1,15 @@
+### 2.3.0
+
+- Added new errors:
+    - comma-dangle (#21)
+    - space-infix-ops (#22)
+    - space-unary-ops (#23)
+
+- Updated dependencies:
+    - eslint@3.16.1
+    - eslint-plugin-babel@4.0.1
+    - eslint-plugin-react@6.10.0
+
 ### 2.2.1
 
 - Updated dependencies:
