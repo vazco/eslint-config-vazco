@@ -41,6 +41,7 @@ rules:
   no-bitwise: 2
   no-class-assign: 2
   no-console: [2, {allow: ["warn", "error", "info", "time", "timeEnd"]}]
+  vazco/no-console: [1, {"disallow": ["info", "time", "timeEnd"]}]
   no-const-assign: 2
   no-else-return: 2
   no-eq-null: 2
@@ -91,6 +92,5 @@ rules:
   space-unary-ops: [2, {"words": true, "nonwords": false}]
   strict: [0, "global"]
   valid-jsdoc: 1
-  vazco/no-console: [1, {"disallow": ["info", "time", "timeEnd"]}]
   wrap-iife: [2, "any"]
   yoda: [1, "never"]
