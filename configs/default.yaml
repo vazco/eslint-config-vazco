@@ -4,6 +4,7 @@ extends: "eslint:recommended"
 
 plugins:
   - "babel"
+  - "brackets"
   - "react"
   - "vazco"
 
@@ -23,6 +24,7 @@ rules:
   arrow-parens: [2, "as-needed"]
   arrow-spacing: [2, {before: true, after: true}]
   brace-style: [2, "1tbs"]
+  brackets/object-curly-newline: 2
   camelcase: [1, {properties: "never"}]
   comma-dangle: [2, "never"]
   comma-style: [2, "last"]
