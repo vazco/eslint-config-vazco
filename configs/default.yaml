@@ -4,7 +4,6 @@ extends: "eslint:recommended"
 
 plugins:
   - "babel"
-  - "brackets"
   - "react"
   - "vazco"
 
@@ -24,7 +23,6 @@ rules:
   arrow-parens: [2, "as-needed"]
   arrow-spacing: [2, {before: true, after: true}]
   brace-style: [2, "1tbs"]
-  brackets/object-curly-newline: 2
   camelcase: [1, {properties: "never"}]
   comma-dangle: [2, "never"]
   comma-style: [2, "last"]
@@ -43,7 +41,6 @@ rules:
   no-bitwise: 2
   no-class-assign: 2
   no-console: [2, {allow: ["warn", "error", "info", "time", "timeEnd"]}]
-  vazco/no-console: [1, {"disallow": ["info", "time", "timeEnd"]}]
   no-const-assign: 2
   no-else-return: 2
   no-eq-null: 2
@@ -61,6 +58,7 @@ rules:
   no-useless-call: 2
   no-var: 2
   no-void: 2
+  object-curly-newline: ["error", { "multiline": true }]
   object-curly-spacing: [2, "never"]
   object-shorthand: 2
   prefer-const: 2
@@ -93,5 +91,6 @@ rules:
   space-unary-ops: [2, {"words": true, "nonwords": false}]
   strict: [0, "global"]
   valid-jsdoc: 1
+  vazco/no-console: [1, {"disallow": ["info", "time", "timeEnd"]}]
   wrap-iife: [2, "any"]
   yoda: [1, "never"]
