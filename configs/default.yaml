@@ -64,6 +64,7 @@ rules:
   no-useless-call: 2
   no-var: 2
   no-void: 2
+  object-curly-newline: ["error", { "multiline": true }]
   object-curly-spacing: [2, "never"]
   object-shorthand: 2
   prefer-const: 2
