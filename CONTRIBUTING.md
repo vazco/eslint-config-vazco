@@ -8,19 +8,25 @@ To have high quality standards and keep developers happy at the same time, rules
 
 To make a new change in the config:
 
-- Create a Pull Request with links to ESLint documentation regarding new rules
-- If you're a Vazco member: notify whole team at a daily meeting and via Slack
-- Time for discussion and voting with thumbs up/down on the PR
-- PR can be merged:
-    - after 24h if > 50% `+1`
-    - after 72h if `+1` > `-1`
-    - there are no serious arguments against (discussion is over)
-- PR can declined:
-    - after 24h if < 50% `-1`
-    - after 72h if `+1` < `-1`
-- Update [CHANGELOG.md](CHANGELOG.md)
-- Add new git tag (using `npm version`)
-- Publish new version on NPM (check SemVer rules below)
+1. Create a Pull Request with your changes and links to ESLint documentation regarding new rules, using the PR template.
+1. If you're a Vazco member: notify whole team via Slack and at the weekly meeting. Also mention Vazco teams inside PR description.
+1. Now it's time for discussion and voting with thumbs up/down on the PR.
+    - PR can be merged:
+        - after 2 workdays, if over 50% of Vazco developers gives a thumb up
+        - after 5 workdays, if number of thumbs up is greater than thumbs down
+        - there are no serious arguments against (discussion is over)
+    - PR can declined:
+        - after 2 workdays, if over 50% of Vazco developers gives a thumb down
+        - after 5 workdays, if number of thumbs down is greater than thumbs up
+
+## Releasing new version
+
+This is usually done by project maintainer.
+
+1. Update peer and dev dependencies.
+1. Update [CHANGELOG.md](CHANGELOG.md) with new changes for this release.
+1. Add new git tag using `npm version` (check SemVer rules below).
+1. Publish new version on NPM.
 
 ## Adding new config sets
 
@@ -38,12 +44,13 @@ E.g. create `example.yaml` (can be based on `default.yaml`) file and once publis
 
 ## Versioning scheme
 
-We use modified semver (_major_._minor_._patch_) scheme to better align with peer dependencies versions, especially with ESLint.
+We use modified SemVer (_major_._minor_._patch_) scheme to better align with peer dependencies versions, especially with ESLint.
 
 - Major​ version bump:
     - ESLint incompatible changes (eg. `eslint@2.x -> eslint@3.x`)
 - Minor ​version bump:
     - New rule at `error` level
+    - New peer dependency
     - Anything else that could break previously passing tests
 - Patch version bump​:
     - New rule at `warning` level
