@@ -1,3 +1,24 @@
+### 2.4.0
+
+- Added new errors:
+    - array-bracket-newline (#24)
+    - object-curly-newline (#25)
+    - conditional-parens-newline (#26)
+    - call-parens-newline (#27)
+    - func-parens-newline (#28)
+
+- Added new dependency:
+    - eslint-plugin-brackets@0.0.1
+
+- Updated dependencies:
+    - eslint@3.17.1
+    - eslint-plugin-babel@4.1.1
+
+- Other:
+    - Docs update
+    - Update contributing rules
+    - New PR template
+
 ### 2.3.0
 
 - Added new errors:
