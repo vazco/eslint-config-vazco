@@ -1,4 +1,4 @@
-# eslint-config-vazco [![Build Status](https://travis-ci.org/vazco/eslint-config-vazco.svg?branch=master)](https://travis-ci.org/vazco/eslint-config-vazco)
+# eslint-config-vazco [![Build Status](https://travis-ci.org/vazco/eslint-config-vazco.svg?branch=master)](https://travis-ci.org/vazco/eslint-config-vazco) ![Peer dependencies](https://img.shields.io/david/peer/vazco/eslint-config-vazco.svg) ![Dev dependencies](https://img.shields.io/david/dev/vazco/eslint-config-vazco.svg)
 
 [ESLint shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) with rules used by [Vazco.eu](http://vazco.eu) in Meteor/React projects
 
@@ -10,7 +10,19 @@
 To install simply add this config (along with ESLint and required dependencies) to your project dev-dependencies:
 
 ```
-$ npm install --save-dev eslint eslint-config-vazco babel-eslint eslint-plugin-babel eslint-plugin-react eslint-plugin-vazco
+npm install --save-dev eslint
+npm install --save-dev babel-eslint
+npm install --save-dev eslint-config-vazco
+npm install --save-dev eslint-plugin-babel
+npm install --save-dev eslint-plugin-react
+npm install --save-dev eslint-plugin-vazco
+npm install --save-dev eslint-plugin-brackets
+```
+
+Ready to use one-liner:
+
+```
+npm i -D eslint babel-eslint eslint-config-vazco eslint-plugin-babel eslint-plugin-react eslint-plugin-vazco eslint-plugin-brackets
 ```
 
 #### For ESLint 2.x (legacy)
@@ -18,7 +30,7 @@ $ npm install --save-dev eslint eslint-config-vazco babel-eslint eslint-plugin-b
 If you want to use this config with ESLint 2.x (required e.g. for Node 0.10) you can install previous major version:
 
 ```
-$ npm install --save-dev eslint@2 eslint-config-vazco@1 babel-eslint@6 eslint-plugin-babel@3 eslint-plugin-react@5
+npm install --save-dev eslint@2 eslint-config-vazco@1 babel-eslint@6 eslint-plugin-babel@3 eslint-plugin-react@5
 ```
 
 ## Usage
@@ -56,9 +68,13 @@ rules:
 }
 ```
 
-## Modifying the config
+## Changelog
 
-All information regarding making changes in the config and versioning details can be found in [contributing](CONTRIBUTING.md) file.
+All changes introduces in the config are tracked inside [changelog file](CHANGELOG.md).
+
+## How to change the rules
+
+All information regarding making changes in the config and versioning details can be found in [contributing file](CONTRIBUTING.md).
 
 Please read them before opening a Pull Request or suggesting a change.
 
