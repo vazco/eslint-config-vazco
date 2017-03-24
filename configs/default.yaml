@@ -24,10 +24,11 @@ rules:
   arrow-parens: [2, "as-needed"]
   arrow-spacing: [2, {before: true, after: true}]
   brace-style: [2, "1tbs"]
-  brackets/func-parens-newline: 2
+  brackets/array-bracket-newline: 2
   brackets/call-parens-newline: 2
   brackets/conditional-parens-newline: 2
-  brackets/array-bracket-newline: 2
+  brackets/func-parens-newline: 2
+  brackets/object-curly-newline: 2
   camelcase: [1, {properties: "never"}]
   comma-dangle: [2, "never"]
   comma-style: [2, "last"]
@@ -64,7 +65,6 @@ rules:
   no-useless-call: 2
   no-var: 2
   no-void: 2
-  object-curly-newline: ["error", { "multiline": true }]
   object-curly-spacing: [2, "never"]
   object-shorthand: 2
   prefer-const: 2
