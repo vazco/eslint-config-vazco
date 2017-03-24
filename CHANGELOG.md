@@ -1,3 +1,13 @@
+### 2.4.1
+
+- Relaxed rules:
+    - use brackets/object-curly-newline instead of object-curly-newline (#29)
+    
+- Updated dependencies:
+    - eslint@3.18.0
+    - babel-eslint@7.2.1
+    - eslint-plugin-react@6.10.3
+
 ### 2.4.0
 
 - Added new errors:
