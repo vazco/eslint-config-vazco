@@ -25,9 +25,9 @@ rules:
   arrow-spacing: [2, {before: true, after: true}]
   brace-style: [2, "1tbs"]
   brackets/array-bracket-newline: 2
-  brackets/call-parens-newline: 2
-  brackets/conditional-parens-newline: 2
-  brackets/func-parens-newline: 2
+  brackets/call-parens-newline: 0
+  brackets/conditional-parens-newline: 0
+  brackets/func-parens-newline: 0
   brackets/object-curly-newline: 2
   camelcase: [1, {properties: "never"}]
   comma-dangle: [2, "never"]
