@@ -36,4 +36,4 @@ const x = 42;
 
 <!-- Leave this as it is, this will call eveyone interested in this PR -->
 ---
-Requesting feedback from: @vazco/developers and @vazco/praktykanci
+Requesting feedback from: @vazco/developers
