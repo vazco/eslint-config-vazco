@@ -50,10 +50,12 @@ We use modified SemVer (_major_._minor_._patch_) scheme to better align with pee
     - ESLint incompatible changes (eg. `eslint@2.x -> eslint@3.x`)
 - Minor ​version bump:
     - New rule at `error` level
-    - New peer dependency
+    - New peer dependency / removed peer dependency
+    - Major dependency bump
     - Anything else that could break previously passing tests
 - Patch version bump​:
     - New rule at `warning` level
     - Removed rule
     - Relaxing existing rule
+    - Minor dependency bump
     - Other backward compatible changes

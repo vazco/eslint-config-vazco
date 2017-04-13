@@ -16,13 +16,12 @@ npm install --save-dev eslint-config-vazco
 npm install --save-dev eslint-plugin-babel
 npm install --save-dev eslint-plugin-react
 npm install --save-dev eslint-plugin-vazco
-npm install --save-dev eslint-plugin-brackets
 ```
 
 Ready to use one-liner:
 
 ```
-npm i -D eslint babel-eslint eslint-config-vazco eslint-plugin-babel eslint-plugin-react eslint-plugin-vazco eslint-plugin-brackets
+npm i -D eslint babel-eslint eslint-config-vazco eslint-plugin-babel eslint-plugin-react eslint-plugin-vazco
 ```
 
 #### For ESLint 2.x (legacy)

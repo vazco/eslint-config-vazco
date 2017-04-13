@@ -1,3 +1,16 @@
+### 2.5
+
+- Removed dependency:
+    - eslint-plugin-brackets
+
+- Removed rules:
+    - brackets/* (#30)
+
+- Updated dependencies:
+    - eslint@3.19.0
+    - babel-eslint@7.2.2
+    - yamljs@0.2.9
+
 ### 2.4.1
 
 - Relaxed rules:

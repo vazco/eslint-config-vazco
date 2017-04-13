@@ -3,19 +3,19 @@
   "version": "2.4.1",
   "description": "ESLint rules used across Vazco.eu in Meteor/React projects",
   "peerDependencies": {
-    "babel-eslint": "^7.2.1",
-    "eslint": "^3.18.0",
+    "babel-eslint": "^7.2.2",
+    "eslint": "^3.19.0",
     "eslint-plugin-babel": "^4.1.1",
     "eslint-plugin-react": "^6.10.3",
     "eslint-plugin-vazco": "^1.0.0"
   },
   "devDependencies": {
-    "babel-eslint": "^7.2.1",
-    "eslint": "^3.18.0",
+    "babel-eslint": "^7.2.2",
+    "eslint": "^3.19.0",
     "eslint-plugin-babel": "^4.1.1",
     "eslint-plugin-react": "^6.10.3",
     "eslint-plugin-vazco": "^1.0.0",
-    "yamljs": "^0.2.8"
+    "yamljs": "^0.2.9"
   },
   "main": "default.json",
   "files": [
