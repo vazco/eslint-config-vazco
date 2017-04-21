@@ -63,6 +63,10 @@ rules:
 {
     "eslintConfig": {
         "extends": "vazco"
+    },
+    
+    "scripts": {
+        "eslint": "$(npm bin)/eslint --ext .js,.jsx ."
     }
 }
 ```
