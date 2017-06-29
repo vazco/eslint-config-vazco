@@ -1,3 +1,13 @@
+### 3.0
+
+- Updated dependencies:
+    - eslint@4.1.1
+    - babel-eslint@7.2.3
+    - eslint-plugin-react@7.1.0
+    - yamljs@0.3.0
+    
+- Rules adjusted to new ESLint release
+
 ### 2.5
 
 - Removed dependency:
