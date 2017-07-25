@@ -1,9 +1,13 @@
 parser: "babel-eslint"
 
-extends: "eslint:recommended"
+extends:
+  - "eslint:recommended"
+  - "prettier"
+  - "prettier/react"
 
 plugins:
   - "babel"
+  - "prettier"
   - "react"
   - "vazco"
 
@@ -63,6 +67,7 @@ rules:
   object-shorthand: 2
   prefer-const: 2
   prefer-spread: 1
+  prettier/prettier: ["error", {"bracketSpacing": false, "printWidth": 120, "singleQuote": true, "tabWidth": 4}]
   quotes: [2, "single"]
   react/display-name: 2
   react/jsx-boolean-value: [2, "never"]
