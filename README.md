@@ -10,18 +10,21 @@
 To install simply add this config (along with ESLint and required dependencies) to your project dev-dependencies:
 
 ```
-npm install --save-dev eslint
 npm install --save-dev babel-eslint
+npm install --save-dev eslint
+npm install --save-dev eslint-config-prettier
 npm install --save-dev eslint-config-vazco
 npm install --save-dev eslint-plugin-babel
+npm install --save-dev eslint-plugin-prettier
 npm install --save-dev eslint-plugin-react
 npm install --save-dev eslint-plugin-vazco
+npm install --save-dev prettier
 ```
 
 Ready to use one-liner:
 
 ```
-npm i -D eslint babel-eslint eslint-config-vazco eslint-plugin-babel eslint-plugin-react eslint-plugin-vazco
+npm i -D babel-eslint eslint eslint-config-prettier eslint-config-vazco eslint-plugin-babel eslint-plugin-prettier eslint-plugin-react eslint-plugin-vazco prettier
 ```
 
 #### For previous ESLint versions
