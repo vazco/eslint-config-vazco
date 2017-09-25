@@ -32,7 +32,7 @@
     "test": "run-s -nc test:*",
     "test:default": "eslint tests/empty.js -c configs/default.yaml",
     "test:prettier": "eslint tests/empty.js -c configs/prettier.yaml",
-    "test:prettier-check": "yaml2json configs/prettier.yaml | npx eslint-config-prettier-check",
+    "test:prettier-check": "yaml2json configs/prettier.yaml | eslint-config-prettier-check",
     "build": "yaml2json -s configs && mv -v configs/*.json .",
     "prepublishOnly": "npm test && npm run build"
   },
@@ -58,6 +58,6 @@
   },
   "engines": {
     "node": ">=4",
-    "npm": ">=5"
+    "npm": "^5"
   }
 }
