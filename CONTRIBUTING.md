@@ -30,7 +30,7 @@ This is usually done by project maintainer.
 
 ## Adding new config sets
 
-At the moment there is only one, `default` config.
+At the moment there are two config, `default` and `prettier`.
 
 New more specialized configs can added in the future by just adding new `.yaml` files in to the `configs` directory.
 

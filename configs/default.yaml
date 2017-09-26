@@ -1,22 +1,22 @@
-parser: "babel-eslint"
+parser: babel-eslint
 
-extends: "eslint:recommended"
+extends: eslint:recommended
 
 plugins:
-  - "babel"
-  - "react"
-  - "vazco"
+  - babel
+  - react
+  - vazco
 
 env:
   browser: true
-  es6:     true
-  node:    true
+  es6: true
+  node: true
 
 parserOptions:
   ecmaVersion: 7
   ecmaFeatures:
     jsx: true
-  sourceType: "module"
+  sourceType: module
 
 rules:
   array-bracket-spacing: [2, "never"]
