@@ -1,3 +1,17 @@
+### 3.1
+
+- Updated dependencies:
+    - eslint@4.7.2
+    - babel-eslint@8.0.0
+    - eslint-plugin-babel@4.1.2
+    - eslint-plugin-react@7.4.0
+
+- New config: `vazco/prettier`
+
+- New optional dependencies (for `prettier`):
+    - eslint-config-prettier@2.6.0
+    - eslint-plugin-prettier@2.3.1
+
 ### 3.0
 
 - Updated dependencies:
