@@ -3,34 +3,38 @@
   "version": "3.0.0",
   "description": "ESLint rules used across Vazco.eu in Meteor/React projects",
   "peerDependencies": {
-    "babel-eslint": "^7.2.3",
-    "eslint": "^4.1.1",
-    "eslint-config-prettier": "^2.3.0",
-    "eslint-plugin-babel": "^4.1.1",
-    "eslint-plugin-prettier": "^2.1.2",
-    "eslint-plugin-react": "^7.1.0",
-    "eslint-plugin-vazco": "^1.0.0",
-    "prettier": "^1.5.3"
+    "babel-eslint": "~8.0.0",
+    "eslint": "~4.7.2",
+    "eslint-config-prettier": "~2.6.0",
+    "eslint-plugin-babel": "~4.1.2",
+    "eslint-plugin-prettier": "~2.3.1",
+    "eslint-plugin-react": "~7.4.0",
+    "eslint-plugin-vazco": "~1.0.0",
+    "prettier": "~1.7.0"
   },
   "devDependencies": {
-    "babel-eslint": "^7.2.3",
-    "eslint": "^4.1.1",
-    "eslint-config-prettier": "^2.3.0",
-    "eslint-plugin-babel": "^4.1.1",
-    "eslint-plugin-prettier": "^2.1.2",
-    "eslint-plugin-react": "^7.1.0",
-    "eslint-plugin-vazco": "^1.0.0",
-    "prettier": "^1.5.3",
-    "yamljs": "^0.3.0"
+    "babel-eslint": "~8.0.0",
+    "eslint": "~4.7.2",
+    "eslint-config-prettier": "~2.6.0",
+    "eslint-plugin-babel": "~4.1.2",
+    "eslint-plugin-prettier": "~2.3.1",
+    "eslint-plugin-react": "~7.4.0",
+    "eslint-plugin-vazco": "~1.0.0",
+    "npm-run-all": "~4.1.1",
+    "prettier": "~1.7.0",
+    "yamljs": "~0.3.0"
   },
   "main": "default.json",
   "files": [
     "*.json"
   ],
   "scripts": {
-    "test": "eslint tests/empty.js -c configs/default.yaml",
+    "test": "run-s -nc build test:*",
+    "test:default": "eslint tests/empty.js -c default.json",
+    "test:prettier": "eslint tests/empty.js -c prettier.json",
+    "test:prettier-check": "cat prettier.json | eslint-config-prettier-check",
     "build": "yaml2json -s configs && mv -v configs/*.json .",
-    "prepublish": "npm test && npm run build"
+    "prepublishOnly": "npm test && npm run build"
   },
   "keywords": [
     "eslint",
@@ -51,5 +55,9 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/vazco/eslint-config-vazco.git"
+  },
+  "engines": {
+    "node": ">=4",
+    "npm": "^5"
   }
 }

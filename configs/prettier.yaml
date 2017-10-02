@@ -1,0 +1,15 @@
+extends:
+  - ./default.json
+  - prettier
+  - prettier/react
+
+plugins:
+  - prettier
+
+rules:
+  prettier/prettier:
+    - error
+    - bracketSpacing: false
+      printWidth: 120
+      singleQuote: true
+      tabWidth: 4
