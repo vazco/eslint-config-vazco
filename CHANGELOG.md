@@ -1,4 +1,14 @@
-### 3.1
+### 3.1.1
+
+- Updated dependencies:
+    - babel-eslint@8.2.1
+    - eslint@4.15.0
+    - eslint-config-prettier@2.9.0
+    - eslint-plugin-prettier@2.4.0
+    - eslint-plugin-react@7.5.1
+    - prettier@1.10.1
+
+### 3.1.0
 
 - Updated dependencies:
     - eslint@4.7.2
@@ -12,7 +22,7 @@
     - eslint-config-prettier@2.6.0
     - eslint-plugin-prettier@2.3.1
 
-### 3.0
+### 3.0.0
 
 - Updated dependencies:
     - eslint@4.1.1
@@ -22,7 +32,7 @@
     
 - Rules adjusted to new ESLint release
 
-### 2.5
+### 2.5.0
 
 - Removed dependency:
     - eslint-plugin-brackets
