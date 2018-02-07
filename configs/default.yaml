@@ -6,6 +6,7 @@ plugins:
   - babel
   - react
   - vazco
+  - lodash-fp
 
 env:
   browser: true
@@ -19,6 +20,7 @@ parserOptions:
   sourceType: module
 
 rules:
+  lodash-fp/no-chain: 2
   array-bracket-spacing: [2, "never"]
   arrow-parens: [2, "as-needed"]
   arrow-spacing: [2, {before: true, after: true}]
