@@ -1,3 +1,16 @@
+### 4.0.0
+
+Major version bump due to ESLint major update.
+
+- Updated dependencies:
+    - babel-eslint@8.2.6
+    - eslint@5.3.0
+    - eslint-config-prettier@3.0.1
+    - eslint-plugin-babel@5.1.0
+    - eslint-plugin-prettier@2.6.2
+    - eslint-plugin-react@7.11.0
+    - prettier@1.14.2
+
 ### 3.1.1
 
 - Updated dependencies:
