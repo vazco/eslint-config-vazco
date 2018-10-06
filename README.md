@@ -6,6 +6,9 @@
     <a href="https://travis-ci.org/vazco/eslint-config-vazco">
         <img src="https://travis-ci.org/vazco/eslint-config-vazco.svg?branch=master" alt="Build Status">
     </a>
+    <a href="https://greenkeeper.io/">
+        <img src="https://badges.greenkeeper.io/vazco/eslint-config-vazco.svg" alt="Greenkeeper badge">
+    </a>
     <img src="https://img.shields.io/david/peer/vazco/eslint-config-vazco.svg" alt="peerDependencies">
     <img src="https://img.shields.io/david/dev/vazco/eslint-config-vazco.svg" alt="devDependencies">
     <a href="https://vazco.eu">
@@ -15,8 +18,6 @@
 
 
 ## Install
-
-[![Greenkeeper badge](https://badges.greenkeeper.io/vazco/eslint-config-vazco.svg)](https://greenkeeper.io/)
 
 #### For ESLint 5.x
 
