@@ -16,6 +16,8 @@
 
 ## Install
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/vazco/eslint-config-vazco.svg)](https://greenkeeper.io/)
+
 #### For ESLint 5.x
 
 To install simply add this config (along with ESLint and required dependencies) to your project dev-dependencies:
