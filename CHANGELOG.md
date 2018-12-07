@@ -1,3 +1,8 @@
+### 4.1.0
+
+- Changed indentation to 2 spaces (#39)
+    - Affected `indent`, `max-len` and `prettier/prettier`
+
 ### 4.0.0
 
 Major version bump due to ESLint major update.
@@ -42,7 +47,7 @@ Major version bump due to ESLint major update.
     - babel-eslint@7.2.3
     - eslint-plugin-react@7.1.0
     - yamljs@0.3.0
-    
+
 - Rules adjusted to new ESLint release
 
 ### 2.5.0
@@ -62,7 +67,7 @@ Major version bump due to ESLint major update.
 
 - Relaxed rules:
     - use brackets/object-curly-newline instead of object-curly-newline (#29)
-    
+
 - Updated dependencies:
     - eslint@3.18.0
     - babel-eslint@7.2.1
@@ -125,13 +130,13 @@ Major version bump due to ESLint major update.
     - eslint@3.9.1
     - eslint-plugin-react@6.5.0
     - babel-eslint@7.1.0
- 
+
 ### 2.1.0
 
 - Added new required peer dependency: [eslint-plugin-vazco](https://www.npmjs.com/package/eslint-plugin-vazco).
 
     You can install it in your project with `npm i -D eslint-plugin-vazco`
-    
+
 - Changes to `no-console` rule, `info`, `time` and `timeEnd` will now be a warning.
 
 ### 2.0.1
