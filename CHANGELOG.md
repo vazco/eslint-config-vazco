@@ -1,3 +1,11 @@
+### 4.2.0
+
+- Added new rules:
+    - Enforce `eqeqeq` rule (#42)
+
+- Updated dependencies:
+    - eslint-config-prettier@4.1.0
+    
 ### 4.1.0
 
 - Changed indentation to 2 spaces (#39)
