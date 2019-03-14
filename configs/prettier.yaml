@@ -9,7 +9,7 @@ plugins:
 rules:
   prettier/prettier:
     - error
-    - bracketSpacing: false
+    - bracketSpacing: true
       printWidth: 120
       singleQuote: true
       tabWidth: 2
