@@ -10,6 +10,6 @@ rules:
   prettier/prettier:
     - error
     - bracketSpacing: true
-      printWidth: 120
+      printWidth: 80
       singleQuote: true
       tabWidth: 2
