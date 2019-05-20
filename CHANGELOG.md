@@ -1,3 +1,12 @@
+### 4.3.0
+
+- Added new rules:
+    - `no-duplicate-imports` rule (#47)
+    - `react/no-access-state-in-setstate` rule (#48)
+    - `sort-comp` rule (#49)
+    - `no-this-in-sfc` rule (#50)
+
+
 ### 4.2.0
 
 - Added new rules:
