@@ -44,6 +44,7 @@ rules:
   no-console: [2, {allow: ["warn", "error", "info", "time", "timeEnd"]}]
   vazco/no-console: [1, {disallow: ["info", "time", "timeEnd"]}]
   no-const-assign: 2
+  no-duplicate-imports: 2
   no-else-return: 2
   no-eq-null: 2
   no-extra-parens: 0
@@ -82,9 +83,11 @@ rules:
   react/jsx-uses-react: 2
   react/jsx-uses-vars: 2
   react/jsx-wrap-multilines: [2, {arrow: false}]
+  react/no-access-state-in-setstate: 2
   react/no-this-in-sfc: 2
   react/react-in-jsx-scope: 2
   react/self-closing-comp: 2
+  react/sort-comp: 2
   semi: [2, "always"]
   space-before-blocks: [2, "always"]
   space-before-function-paren: [2, "always"]
