@@ -44,6 +44,7 @@ rules:
   no-console: [2, {allow: ["warn", "error", "info", "time", "timeEnd"]}]
   vazco/no-console: [1, {disallow: ["info", "time", "timeEnd"]}]
   no-const-assign: 2
+  no-duplicate-imports: 2
   no-else-return: 2
   no-eq-null: 2
   no-extra-parens: 0
