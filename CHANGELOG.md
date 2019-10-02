@@ -1,3 +1,7 @@
+### 5.0.0
+
+- Changed dependencies type from `peerDependencies` to `dependencies` to simplify the installation and configuration process.
+
 ### 4.3.0
 
 - Added new rules:
@@ -14,7 +18,7 @@
 
 - Updated dependencies:
     - eslint-config-prettier@4.1.0
-    
+
 ### 4.1.0
 
 - Changed indentation to 2 spaces (#39)

@@ -16,73 +16,15 @@
 
 ## Install
 
-#### For ESLint 5.x
-
-To install simply add this config (along with ESLint and required dependencies) to your project dev-dependencies:
-
 ```
-npm install --save-dev babel-eslint
-npm install --save-dev eslint
 npm install --save-dev eslint-config-vazco
-npm install --save-dev eslint-plugin-babel
-npm install --save-dev eslint-plugin-react
-npm install --save-dev eslint-plugin-vazco
-
-# If you want to use prettier
-npm install --save-dev prettier
-npm install --save-dev eslint-plugin-prettier
-npm install --save-dev eslint-config-prettier
 ```
 
 Ready to use one-liner (for `default` config):
-
-```
-npm i -D babel-eslint eslint eslint-config-vazco eslint-plugin-babel eslint-plugin-react eslint-plugin-vazco
-```
-
-Ready to use two-liner (for `prettier` config), requires npm 5+:
 
 ```
 npm i -D eslint-config-vazco
-npx install-peerdeps --dev eslint-config-vazco
 ```
-
-<details>
-<summary><strong>Previous ESLint versions</strong></summary>
-
-#### For ESLint 4.x
-We recommend to upgrade to ESLint 5, but if you must you can use older dependencies and config from 3.x branch:
-
-To install simply add this config (along with ESLint and required dependencies) to your project dev-dependencies:
-
-Ready to use one-liner (for `default` config):
-
-```
-npm i -D babel-eslint eslint eslint-config-vazco@3 eslint-plugin-babel eslint-plugin-react eslint-plugin-vazco
-```
-
-Ready to use two-liner (for `prettier` config), requires npm 5+:
-
-```
-npm i -D eslint-config-vazco@3
-npx install-peerdeps --dev eslint-config-vazco@3
-```
-
-##### ESLint 3.x
-We strongly recommend to upgrade to ESLint 5, but if you must you can use older dependencies and config from 2.x branch:
-
-```
-npm i -D eslint@3 babel-eslint@7 eslint-config-vazco@2 eslint-plugin-babel@4 eslint-plugin-react@6 eslint-plugin-vazco@1
-```
-
-##### ESLint 2.x
-If you want to use this config with ESLint 2.x (required e.g. for Node 0.10) you can install config for version 1.x:
-
-```
-npm i -D eslint@2 eslint-config-vazco@1 babel-eslint@6 eslint-plugin-babel@3 eslint-plugin-react@5
-```
-
-</details>
 
 ## Usage
 
@@ -118,20 +60,6 @@ rules:
     }
 }
 ```
-
-### Alternative config - `vazco/prettier`
-
-[Prettier](https://prettier.io) is an opinionated code formatter: it removes all styling and enforces outputted code to use a consistent style.
-
-Usage is the same as in examples above, just replace `"extends": "vazco"` with `"extends": "vazco/prettier"`.
-
-```json
-{
-    "extends": "vazco/prettier"
-}
-```
-
-This config is more strict, and using `eslint --fix` **will completely reformat your code** using prettier.
 
 #### Prettier workflow
 
