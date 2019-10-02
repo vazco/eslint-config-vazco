@@ -20,12 +20,6 @@
 npm install --save-dev eslint-config-vazco
 ```
 
-Ready to use one-liner (for `default` config):
-
-```
-npm i -D eslint-config-vazco
-```
-
 ## Usage
 
 Extend your project ESLint rules with our config. This can be done in few ways:
