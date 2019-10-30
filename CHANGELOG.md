@@ -1,3 +1,9 @@
+### 5.1.0
+
+- Added new TypeScript config
+- Reverted dependencies type change made in 5.0.0
+- Bump dependencies
+
 ### 5.0.0
 
 - Changed dependencies type from `peerDependencies` to `dependencies` to simplify the installation and configuration process.
