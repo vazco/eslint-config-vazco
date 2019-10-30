@@ -16,13 +16,17 @@
 
 ## Install
 
+To install simply add this config (along with it's peer dependencies) to your project's dev-dependencies:
+
 ```
 npm install --save-dev eslint-config-vazco
+npx install-peerdeps --dev eslint-config-vazco
 ```
 
 ## Usage
 
-Extend your project ESLint rules with our config. This can be done in few ways:
+Extend your project's ESLint rules with our config.
+This can be done in few ways (for TypeScript projects replace `vazco` with `vazco/typescript`):
 
 #### .eslintrc / .eslintrc.json
 
