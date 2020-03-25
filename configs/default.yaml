@@ -26,6 +26,7 @@ rules:
   camelcase: [1, {properties: "never"}]
   complexity: [1, 12]
   consistent-return: 1
+  curly: ["error", "multi"]
   eqeqeq: 2
   func-names: 1
   guard-for-in: 2
