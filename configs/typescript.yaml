@@ -35,7 +35,8 @@ settings:
 rules:
   prettier/prettier:
     - error
-    - bracketSpacing: true
+    - arrowParens: avoid
+      bracketSpacing: true
       printWidth: 80
       singleQuote: true
       tabWidth: 2
