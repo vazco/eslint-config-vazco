@@ -1,3 +1,11 @@
+### 5.2.0
+
+- Added new rules:
+    - `curly` rule (#62)
+
+- Updated dependencies:
+    - prettier@2.0.2
+
 ### 5.1.0
 
 - Added new TypeScript config
