@@ -1,0 +1,68 @@
+extends:
+  - eslint:recommended
+  - prettier/react
+
+plugins:
+  - prettier
+  - react
+  - vazco
+
+env:
+  browser: true
+  es6: true
+  node: true
+
+parserOptions:
+  ecmaFeatures:
+    jsx: true
+  ecmaVersion: 2018
+  sourceType: module
+
+rules:
+  camelcase: [1, {properties: "never"}]
+  complexity: [1, 12]
+  consistent-return: 1
+  curly: ["error", "all"]
+  eqeqeq: 2
+  func-names: 1
+  guard-for-in: 2
+  new-cap: [2, {newIsCap: true, capIsNew: false}]
+  no-bitwise: 2
+  no-class-assign: 2
+  no-console: [2, {allow: ["warn", "error", "info", "time", "timeEnd"]}]
+  no-const-assign: 2
+  no-duplicate-imports: 2
+  no-else-return: 2
+  no-eq-null: 2
+  no-extra-parens: 0
+  no-inner-declarations: [2, "both"]
+  no-lonely-if: 2
+  no-self-compare: 2
+  no-underscore-dangle: 0
+  no-unneeded-ternary: 2
+  no-unused-expressions: 0
+  no-use-before-define: 0
+  no-useless-call: 2
+  no-var: 2
+  no-void: 2
+  object-shorthand: 2
+  prefer-const: 2
+  prefer-spread: 1
+  react/display-name: 2
+  react/jsx-boolean-value: [2, "never"]
+  react/jsx-key: 2
+  react/jsx-no-comment-textnodes: 2
+  react/jsx-no-duplicate-props: 2
+  react/jsx-no-undef: 2
+  react/jsx-pascal-case: 2
+  react/jsx-uses-react: 2
+  react/jsx-uses-vars: 2
+  react/no-access-state-in-setstate: 2
+  react/no-this-in-sfc: 2
+  react/react-in-jsx-scope: 2
+  react/self-closing-comp: 2
+  react/sort-comp: 2
+  strict: [0, "global"]
+  valid-jsdoc: 1
+  vazco/no-console: [1, {disallow: ["info", "time", "timeEnd"]}]
+  yoda: [1, "never"]
