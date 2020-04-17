@@ -7,6 +7,7 @@ extends:
 
 plugins:
   - babel
+  - import
   - prettier
   - react
   - vazco
@@ -30,6 +31,11 @@ rules:
   eqeqeq: 2
   func-names: 1
   guard-for-in: 2
+  import/order:
+    - error
+    - groups: [[builtin, external, internal], [parent, sibling, index], [unknown]]
+      newlines-between: always
+      alphabetize: {order: asc}
   new-cap: [2, {newIsCap: true, capIsNew: false}]
   no-bitwise: 2
   no-class-assign: 2
