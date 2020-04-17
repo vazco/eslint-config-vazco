@@ -6,7 +6,6 @@ extends:
 
 plugins:
   - babel
-  - vazco
 
 rules:
   prettier/prettier:
