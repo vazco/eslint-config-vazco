@@ -33,9 +33,20 @@ rules:
   guard-for-in: 2
   import/order:
     - error
-    - groups: [[builtin, external, internal], [parent, sibling, index], [unknown]]
+    - groups:
+        -
+          - builtin
+          - external
+          - internal
+        -
+          - index
+          - parent
+          - sibling
+        -
+          - unknown
       newlines-between: always
-      alphabetize: {order: asc}
+      alphabetize:
+        order: asc
   new-cap: [2, {newIsCap: true, capIsNew: false}]
   no-bitwise: 2
   no-class-assign: 2
