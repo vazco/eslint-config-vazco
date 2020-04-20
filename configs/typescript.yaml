@@ -7,7 +7,7 @@ extends:
   - 'plugin:react/recommended'
   - 'plugin:prettier/recommended'
   - 'prettier/@typescript-eslint'
-  - './base'
+  - './default'
 
 plugins:
   - '@typescript-eslint'
@@ -16,16 +16,4 @@ parserOptions:
   project: './tsconfig.json'
   warnOnUnsupportedTypeScriptVersion: false
 
-settings:
-  react:
-    version: detect
-
-rules:
-  prettier/prettier:
-    - error
-    - arrowParens: avoid
-      bracketSpacing: true
-      printWidth: 80
-      singleQuote: true
-      tabWidth: 2
-      trailingComma: all
+rules: {}
