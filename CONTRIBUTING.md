@@ -4,6 +4,8 @@
 
 Because making adjustments in this config could break tests/builds for several projects, all changes must be proceeded with caution.
 
+Before adding or changing rules, make sure that other configurations that extend the changes do not overwrite them in undesirable way.
+
 To have high quality standards and keep developers happy at the same time, rules are democratically elected among Vazco team members.
 
 To make a new change in the config:
