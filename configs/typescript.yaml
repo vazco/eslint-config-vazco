@@ -16,4 +16,6 @@ parserOptions:
   project: './tsconfig.json'
   warnOnUnsupportedTypeScriptVersion: false
 
-rules: {}
+rules:
+  no-extra-parens: 0
+  no-use-before-define: 0
