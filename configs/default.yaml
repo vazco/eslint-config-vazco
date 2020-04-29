@@ -6,7 +6,6 @@ extends:
   - prettier/react
 
 plugins:
-  - babel
   - prettier
   - react
   - vazco
@@ -17,9 +16,9 @@ env:
   node: true
 
 parserOptions:
-  ecmaVersion: 2018
   ecmaFeatures:
     jsx: true
+  ecmaVersion: 2018
   sourceType: module
 
 rules:
@@ -78,3 +77,7 @@ rules:
   valid-jsdoc: 1
   vazco/no-console: [1, {disallow: ["info", "time", "timeEnd"]}]
   yoda: [1, "never"]
+
+settings:
+  react:
+    version: detect
