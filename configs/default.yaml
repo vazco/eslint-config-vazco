@@ -9,6 +9,7 @@ plugins:
   - import
   - prettier
   - react
+  - react-hooks
   - vazco
 
 env:
@@ -76,6 +77,8 @@ rules:
       singleQuote: true
       tabWidth: 2
       trailingComma: none
+  react-hooks/rules-of-hooks: 2
+  react-hooks/exhaustive-deps: 2
   react/display-name: 2
   react/jsx-boolean-value: [2, "never"]
   react/jsx-key: 2
