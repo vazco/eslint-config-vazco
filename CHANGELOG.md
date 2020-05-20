@@ -1,3 +1,12 @@
+### 5.3.0
+
+- Made TypeScript config extend the default one (#64)
+- Changed `prettier.trailingComma` from `none` to `all` (#66)
+- Added new rules:
+    - `import/order` rule (#65)
+    - `react-hooks/rules-of-hooks` rule (#67)
+    - `react-hooks/rules-of-hooks` rule (#67)
+
 ### 5.2.0
 
 - Added new rules:
