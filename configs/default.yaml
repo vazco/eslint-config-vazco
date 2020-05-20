@@ -76,7 +76,7 @@ rules:
       printWidth: 80
       singleQuote: true
       tabWidth: 2
-      trailingComma: none
+      trailingComma: all
   react-hooks/rules-of-hooks: 2
   react-hooks/exhaustive-deps: 2
   react/display-name: 2
