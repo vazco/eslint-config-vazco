@@ -14,7 +14,6 @@
     "eslint-plugin-prettier": "3.1.1",
     "eslint-plugin-react": "7.16.0",
     "eslint-plugin-react-hooks": "4.0.0",
-    "eslint-plugin-vazco": "1.0.0",
     "npm-run-all": "4.1.5",
     "prettier": "2.0.2",
     "typescript": "3.6.4",
