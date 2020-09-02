@@ -10,7 +10,6 @@ plugins:
   - prettier
   - react
   - react-hooks
-  - vazco
 
 env:
   browser: true
@@ -95,7 +94,6 @@ rules:
   react/sort-comp: 2
   strict: [0, "global"]
   valid-jsdoc: 1
-  vazco/no-console: [1, {disallow: ["info", "time", "timeEnd"]}]
   yoda: [1, "never"]
 
 settings:
