@@ -1,3 +1,7 @@
+### 5.3.1
+
+- Removed `vazco/no-console` rule (#68)
+
 ### 5.3.0
 
 - Made TypeScript config extend the default one (#64)
