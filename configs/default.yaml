@@ -2,11 +2,13 @@ parser: babel-eslint
 
 extends:
   - eslint:recommended
+  - plugin:jsx-a11y/recommended
   - prettier
   - prettier/react
 
 plugins:
   - import
+  - jsx-a11y
   - prettier
   - react
   - react-hooks
