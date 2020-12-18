@@ -1,3 +1,10 @@
+### 5.4.0
+
+- Extended rules with `plugin:jsx-a11y/recommended` (#69)
+
+- Added new dependencies:
+    - eslint-plugin-jsx-a11y@6.4.1 (#69)
+
 ### 5.3.1
 
 - Removed `vazco/no-console` rule (#68)
