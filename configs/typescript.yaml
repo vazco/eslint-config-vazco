@@ -17,5 +17,6 @@ parserOptions:
   warnOnUnsupportedTypeScriptVersion: false
 
 rules:
+  '@typescript-eslint/no-extra-semi': 0
   no-extra-parens: 0
   no-use-before-define: 0
