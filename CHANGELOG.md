@@ -1,3 +1,10 @@
+### 6.0.0
+
+- Extended rules with `react/jsx-curly-brace-presence` (#70)
+
+- Updated dependencies:
+    - eslint@7.15.0 (#71)
+
 ### 5.4.0
 
 - Extended rules with `plugin:jsx-a11y/recommended` (#69)
