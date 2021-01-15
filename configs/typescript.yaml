@@ -6,7 +6,6 @@ extends:
   - 'plugin:prettier/recommended'
   - 'prettier/@typescript-eslint'
   - './default'
-  - 'plugin:@typescript-eslint/eslint-recommended'
   - 'plugin:@typescript-eslint/recommended'
 
 plugins:
