@@ -1,3 +1,31 @@
+### 6.1.0
+- Updated dependencies:
+    - @typescript-eslint/eslint-plugin@4.12.0 (#72)
+    - @typescript-eslint/parser@4.12.0 (#72)
+    - babel-eslint@10.1.0 (#72)
+    - eslint@7.17.0 (#72)
+    - eslint-config-prettier@7.1.0 (#72)
+    - eslint-plugin-babel@5.3.1 (#72)
+    - eslint-plugin-import@2.22.1 (#72)
+    - eslint-plugin-prettier@3.3.1 (#72)
+    - eslint-plugin-react@7.22.0 (#72)
+    - eslint-plugin-react-hooks@4.2.0 (#72)
+    - prettier@2.2.1 (#72)
+    - typescript@4.1.3 (#72)
+    
+- Due to dependency updates, new rules at error level have been added:
+    - [typescript-eslint/restrict-template-expressions](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/restrict-template-expressions.md) (#72)
+    - [typescript-eslint/restrict-plus-operands](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/restrict-plus-operands.md) (#72)
+    - [typescript-eslint/no-floating-promises](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-floating-promises.md) (#72)
+    - [typescript-eslint/no-implied-eval](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-implied-eval.md) (#72)
+    - [typescript-eslint/no-unsafe-assignment](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unsafe-assignment.md) (#72)
+    - [typescript-eslint/no-unsafe-call](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unsafe-call.md) (#72)
+    - [typescript-eslint/no-unsafe-member-access](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unsafe-member-access.md) (#72)
+    - [typescript-eslint/no-unsafe-return](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unsafe-return.md) (#72)
+    
+- Removed unnecessary peer dependencies:
+    - eslint-plugin-vazco (#72)
+
 ### 6.0.0
 
 - Extended rules with `react/jsx-curly-brace-presence` (#70)
