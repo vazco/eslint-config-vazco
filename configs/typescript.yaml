@@ -6,7 +6,6 @@ extends:
   - 'plugin:prettier/recommended'
   - 'prettier/@typescript-eslint'
   - './default'
-  - 'plugin:@typescript-eslint/eslint-recommended'
   - 'plugin:@typescript-eslint/recommended'
 
 plugins:
@@ -17,5 +16,6 @@ parserOptions:
   warnOnUnsupportedTypeScriptVersion: false
 
 rules:
+  '@typescript-eslint/no-extra-semi': 0
   no-extra-parens: 0
   no-use-before-define: 0
