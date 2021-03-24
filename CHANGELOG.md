@@ -1,3 +1,9 @@
+### 6.1.1
+- Disabled rules:
+    - jsx-a11y/no-onchange
+
+- Added code example for `jsx-a11y/no-onchange` rule in the test file.
+
 ### 6.1.0
 - Updated dependencies:
     - @typescript-eslint/eslint-plugin@4.12.0 (#72)
