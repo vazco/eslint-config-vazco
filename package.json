@@ -43,9 +43,9 @@
     "build": "yaml2json -s configs && mv -v configs/*.json .",
     "prepublishOnly": "npm test && npm run build",
     "test": "run-s -nc build test:**",
-    "test:default:tests": "eslint tests --no-eslintrc -c default.json",
-    "test:typescript:tests": "eslint tests --no-eslintrc -c typescript.json",
-    "test:prettier": "eslint-config-prettier tests/empty.js"
+    "test:default:tests": "eslint tests/sampleCode.jsx --no-eslintrc -c default.json",
+    "test:typescript:tests": "eslint tests/sampleCode.jsx --no-eslintrc -c typescript.json",
+    "test:prettier": "eslint-config-prettier tests/sampleCode.jsx"
   },
   "keywords": [
     "eslint",
