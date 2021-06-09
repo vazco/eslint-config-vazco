@@ -2,3 +2,8 @@
 import React from 'react';
 
 <select onChange={undefined} />;
+
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+
+const y = 2;
+const x = 3;
