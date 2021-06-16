@@ -3,7 +3,9 @@ import React from 'react';
 
 <select onChange={undefined} />;
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
+('string literal');
 
-const y = 2;
-const x = 3;
+("string literal with 'quotes'");
+
+`template
+literal`;
