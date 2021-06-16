@@ -7,5 +7,5 @@ import React from 'react';
 
 ("string literal with 'quotes'");
 
-`template
+`multi line template
 literal`;
