@@ -2,11 +2,13 @@ parser: babel-eslint
 
 extends:
   - eslint:recommended
+  - plugin:eslint-comments/recommended
   - plugin:jsx-a11y/recommended
   - prettier
   - prettier/react
 
 plugins:
+  - eslint-comments
   - import
   - jsx-a11y
   - prettier
@@ -30,6 +32,8 @@ rules:
   consistent-return: 1
   curly: ["error", "all"]
   eqeqeq: 2
+  eslint-comments/no-unused-disable: 2
+  eslint-comments/require-description: 1
   func-names: 1
   guard-for-in: 2
   import/order:

@@ -1,5 +1,5 @@
 <!-- READ THE INSTRUCTIONS AND FILL THE PULL REQUEST -->
-<!-- 1) THIS COMMENTS WON'T BE ADDED TO THE PULL REQUEST -->
+<!-- 1) THESE COMMENTS WON'T BE ADDED TO THE PULL REQUEST -->
 <!-- 2) DO NOT ADD ANY REVIEWERS - THERE IS A CODE AT THE BOTTOM THAT WILL CALL PEOPLE -->
 <!-- 3) BEFORE SUBMITTING CHANGE TO PREVIEW TAB AND MAKE SURE EVERYTHING LOOKS OK! -->
 
@@ -12,7 +12,7 @@ Fixable? | Yes/No
 Link to docs: | http://eslint.org/docs/rules/RULE-NAME
 
 ### Why?
-<!-- Please wrote some short explanation -->
+<!-- Please write some short explanation -->
 I want it, because...
 
 ### Examples of BAD code for this rule:
@@ -34,6 +34,6 @@ const x = 42;
 ```
 
 
-<!-- Leave this as it is, this will call eveyone interested in this PR -->
+<!-- Leave this as it is, this will call everyone interested in this PR -->
 ---
 Requesting feedback from: @vazco/developers
