@@ -1,4 +1,4 @@
-parser: babel-eslint
+parser: '@babel/eslint-parser'
 
 extends:
   - eslint:recommended
@@ -8,6 +8,7 @@ extends:
   - prettier/react
 
 plugins:
+  - @babel
   - eslint-comments
   - import
   - jsx-a11y
@@ -21,12 +22,17 @@ env:
   node: true
 
 parserOptions:
+  babelOptions:
+    presets:
+      - '@babel/preset-react'
   ecmaFeatures:
     jsx: true
   ecmaVersion: 2018
+  requireConfigFile: false
   sourceType: module
 
 rules:
+  '@babel/new-cap': [2, {newIsCap: true, capIsNew: false}]
   camelcase: [1, {properties: "never"}]
   complexity: [1, 12]
   consistent-return: 1
@@ -53,7 +59,7 @@ rules:
       alphabetize:
         order: asc
   jsx-a11y/no-onchange: 0
-  new-cap: [2, {newIsCap: true, capIsNew: false}]
+  new-cap: 0
   no-bitwise: 2
   no-class-assign: 2
   no-console: [2, {allow: ["warn", "error", "info", "time", "timeEnd"]}]
