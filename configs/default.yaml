@@ -83,6 +83,11 @@ rules:
       singleQuote: true
       tabWidth: 2
       trailingComma: all
+  quotes:
+    - error
+    - single
+    - avoidEscape: true
+      allowTemplateLiterals: false
   react-hooks/rules-of-hooks: 2
   react-hooks/exhaustive-deps: 2
   react/display-name: 2

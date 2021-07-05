@@ -2,3 +2,10 @@
 import React from 'react';
 
 <select onChange={undefined} />;
+
+('string literal');
+
+("string literal with 'quotes'");
+
+`multi line template
+literal`;
