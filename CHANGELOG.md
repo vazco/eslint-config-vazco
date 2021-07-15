@@ -1,3 +1,18 @@
+### 6.2.0
+- Updated dependencies:
+    - prettier@2.3.0 (#75)
+
+- Replaced deprecated `babel-eslint` and `eslint-plugin-babel` packages with maintained ones from `@babel` monorepo. (#79)
+- Fixed [@typescript-ełslint/no-unused-vars](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unused-vars.md) rule in `typescript` configuration. (#78)
+- Enabled [quotes](https://github.com/eslint/eslint/blob/master/docs/rules/quotes.md) rule to enhance prettier formatting. (#78)
+- Added new plugin `eslint-plugin-eslint-comments`. New rules at error level have been added. (#77)
+    - [eslint-comments/no-unused-disable](https://github.com/mysticatea/eslint-plugin-eslint-comments/blob/master/docs/rules/no-unused-disable.md)
+    - [eslint-comments/disable-enable-pair](https://github.com/mysticatea/eslint-plugin-eslint-comments/blob/master/docs/rules/disable-enable-pair.md)
+    - [eslint-comments/no-aggregating-enable](https://github.com/mysticatea/eslint-plugin-eslint-comments/blob/master/docs/rules/no-aggregating-enable.md)
+    - [eslint-comments/no-duplicate-disable](https://github.com/mysticatea/eslint-plugin-eslint-comments/blob/master/docs/rules/no-duplicate-disable.md)
+    - [eslint-comments/no-unlimited-disable](https://github.com/mysticatea/eslint-plugin-eslint-comments/blob/master/docs/rules/no-unlimited-disable.md)
+    - [eslint-comments/no-unused-enable](https://github.com/mysticatea/eslint-plugin-eslint-comments/blob/master/docs/rules/no-unused-enable.md)
+
 ### 6.1.1
 - Disabled rules:
     - jsx-a11y/no-onchange
