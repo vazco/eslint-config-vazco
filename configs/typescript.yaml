@@ -12,6 +12,9 @@ plugins:
   - '@typescript-eslint'
 
 parserOptions:
+  ecmaFeatures:
+    jsx: true
+  ecmaVersion: 2018
   project: './tsconfig.json'
   warnOnUnsupportedTypeScriptVersion: false
 
