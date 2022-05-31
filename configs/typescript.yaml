@@ -4,7 +4,6 @@ extends:
   - 'plugin:@typescript-eslint/recommended-requiring-type-checking'
   - 'plugin:react/recommended'
   - 'plugin:prettier/recommended'
-  - 'prettier/@typescript-eslint'
   - './default'
   - 'plugin:@typescript-eslint/recommended'
 
