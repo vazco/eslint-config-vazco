@@ -4,7 +4,6 @@ extends:
   - 'plugin:@typescript-eslint/recommended-requiring-type-checking'
   - 'plugin:react/recommended'
   - 'plugin:prettier/recommended'
-  - 'prettier/@typescript-eslint'
   - './default'
   - 'plugin:@typescript-eslint/recommended'
 
@@ -21,5 +20,6 @@ parserOptions:
 rules:
   '@typescript-eslint/no-extra-semi': 0
   '@typescript-eslint/no-unused-vars': 2
+  '@typescript-eslint/prefer-ts-expect-error': 2
   no-extra-parens: 0
   no-use-before-define: 0

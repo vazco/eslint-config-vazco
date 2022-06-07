@@ -5,7 +5,6 @@ extends:
   - plugin:eslint-comments/recommended
   - plugin:jsx-a11y/recommended
   - prettier
-  - prettier/react
 
 plugins:
   - @babel
