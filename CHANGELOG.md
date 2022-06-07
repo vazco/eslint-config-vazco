@@ -1,3 +1,24 @@
+### 7.0.0
+- Updated dependencies:
+  - @typescript-eslint/eslint-plugin@5.27.0 (#80)
+  - @typescript-eslint/parser@5.27.0 (#80)
+  - eslint@8.16.0 (#80)
+  - eslint-config-prettier@8.5.0 (#80)
+  - eslint-plugin-import@2.26.0 (#80)
+  - eslint-plugin-jsx-a11y@6.5.1 (#80)
+  - eslint-plugin-prettier@4.0.0 (#80)
+  - eslint-plugin-react@7.30.0 (#80)
+  - eslint-plugin-react-hooks@4.5.0 (#80)
+  - prettier@2.6.2 (#80)
+  - typescript@4.7.2 (#80)
+- Due to dependency updates, new rules at error level have been added:
+  - [no-loss-of-precision](https://eslint.org/docs/rules/no-loss-of-precision)
+  - [no-nonoctal-decimal-escape](https://eslint.org/docs/rules/no-nonoctal-decimal-escape)
+  - [no-unsafe-optional-chaining](https://eslint.org/docs/rules/no-unsafe-optional-chaining)
+  - [no-useless-backreference](https://eslint.org/docs/rules/no-useless-backreference)
+- New rule at error level has been added: (#80)
+  - [@typescript-eslint/prefer-ts-expect-error](https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/prefer-ts-expect-error.md)
+
 ### 6.2.0
 - Updated dependencies:
     - prettier@2.3.0 (#75)
