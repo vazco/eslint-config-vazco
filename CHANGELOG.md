@@ -1,3 +1,9 @@
+### 7.1.0
+- Updated dependencies:
+  - Update ESLint to 8.25.0 by @kestarumper in ([#81](https://github.com/vazco/eslint-config-vazco/pull/81))
+- New rule at error level has been added:
+  - Added [no-constant-binary-expression](http://eslint.org/docs/rules/no-constant-binary-expression) ([#83](https://github.com/vazco/eslint-config-vazco/pull/83))
+
 ### 7.0.0
 - Updated dependencies:
   - @typescript-eslint/eslint-plugin@5.27.0 (#80)
