@@ -1,6 +1,11 @@
 ### 7.1.0
-- Updated dependencies:
-  - Update ESLint to 8.25.0 by @kestarumper in ([#81](https://github.com/vazco/eslint-config-vazco/pull/81))
+- Updated dependencies ([#81](https://github.com/vazco/eslint-config-vazco/pull/81)):
+  - eslint@8.25.0 
+  - eslint-plugin-jsx-a11y@6.6.1
+  - eslint-plugin-prettier@4.2.1
+  - eslint-plugin-react@7.31.10
+  - eslint-plugin-react-hooks@4.6.0
+  - prettier@2.7.1
 - New rule at error level has been added:
   - Added [no-constant-binary-expression](http://eslint.org/docs/rules/no-constant-binary-expression) ([#83](https://github.com/vazco/eslint-config-vazco/pull/83))
 
