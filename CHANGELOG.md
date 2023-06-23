@@ -1,5 +1,5 @@
 ### 7.2.0
-- Added support for typescript 5 (https://github.com/vazco/eslint-config-vazco/pull/85)
+- Added support for typescript 5 ([#85](https://github.com/vazco/eslint-config-vazco/pull/85))
   - Updated typescript@5.1.3
 
 ### 7.1.0
