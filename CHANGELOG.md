@@ -1,4 +1,4 @@
-### 7.2.1
+### 7.3.0
 - Updated dependencies ([#86](https://github.com/vazco/eslint-config-vazco/pull/86)):
   - eslint@8.43.0
   - prettier@2.8.8
