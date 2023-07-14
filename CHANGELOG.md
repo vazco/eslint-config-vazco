@@ -1,3 +1,10 @@
+### 7.2.1
+- Updated dependencies ([#86](https://github.com/vazco/eslint-config-vazco/pull/86)):
+  - eslint@8.43.0
+  - prettier@2.8.8
+  - @babel/core@7.22.5
+- Clarify contributing guidelines ([#86](https://github.com/vazco/eslint-config-vazco/pull/86)):
+
 ### 7.2.0
 - Added support for typescript 5 ([#85](https://github.com/vazco/eslint-config-vazco/pull/85))
   - Updated typescript@5.1.3
