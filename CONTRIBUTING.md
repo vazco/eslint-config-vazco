@@ -27,8 +27,8 @@ This is usually done by project maintainer.
 
 1. Update peer and dev dependencies.
 1. Update [CHANGELOG.md](CHANGELOG.md) with new changes for this release.
-1. Add new git tag using `npm version` (check SemVer rules below).
-1. Publish new version on NPM.
+1. Add new git tag using `npm version <newversion>` (check SemVer rules below).
+1. Publish new version on NPM using `npm publish`.
 
 ## Adding new config sets
 
