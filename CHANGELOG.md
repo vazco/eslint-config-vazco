@@ -1,3 +1,20 @@
+### 7.4.0
+- Updated dependencies ([#87](https://github.com/vazco/eslint-config-vazco/pull/87)):
+  - @babel/core@7.23.6
+  - @babel/eslint-parser@7.23.3
+  - @babel/eslint-plugin@7.23.5
+  - @babel/preset-react@7.23.3
+  - @typescript-eslint/eslint-plugin@6.14.0
+  - @typescript-eslint/parser@6.14.0
+  - eslint@8.55.0
+  - eslint-config-prettier@9.1.0
+  - eslint-plugin-import@2.29.1
+  - eslint-plugin-jsx-a11y@6.8.0
+  - eslint-plugin-prettier@5.0.1
+  - eslint-plugin-react@7.33.2
+  - prettier@3.1.1
+  - typescript@5.3.3
+
 ### 7.3.0
 - Updated dependencies ([#86](https://github.com/vazco/eslint-config-vazco/pull/86)):
   - eslint@8.43.0
